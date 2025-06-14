@@ -259,4 +259,9 @@ footer .sign {
     font-size: 0.85rem;
     white-space: normal;
   }
+
+  .contact h3 {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
 }
