@@ -41,32 +41,7 @@ body {
   padding: 1.5em;
 }
 
-/* Improve placeholder visibility on all screen sizes */
-.contact form input::placeholder {
-  /* white-space: normal; Allow wrapping of placeholder text */
-  /* word-break: break-word; Break long placeholder if needed */
-}
 
-/* Ensure input fields handle overflow gracefully */
-.contact form input {
-  /* min-width: 0; Prevent overflow on flex/grid containers */
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
-  /* white-space: nowrap; */
-}
-
-/* Optional: let placeholder wrap on very narrow screens */
-@media screen and (max-width: 480px) {
-  .contact form input::placeholder,
-    .contact form textarea::placeholder {
-    font-size: 0.8rem;
-    white-space: normal;
-  }
-
-  .contact form input {
-    font-size: 1rem;
-  }
-}
 
 
 /* Submit buttons */
