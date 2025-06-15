@@ -254,10 +254,15 @@ footer .sign {
 
 /* Optional: let placeholder wrap on very narrow screens */
 @media screen and (max-width: 480px) {
+
+  .contact form .small input{
+    padding-bottom: 2em;
+  }
   .contact form input::placeholder,
   .contact form textarea::placeholder {
     font-size: 0.85rem;
     white-space: normal;
+    justify-content: center;
   }
 
   .contact h3 {
